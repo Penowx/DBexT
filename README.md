@@ -1,6 +1,6 @@
 #  DBexT - Database File Extractor
 
-DBexT is a powerful Python-based forensic utility for extracting embedded files (such as images, documents, archives) from binary database-like containers.
+DBexT is a forensic utility for extracting embedded files (such as images, documents, archives) from binary database-like containers.
 
 
 
