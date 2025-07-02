@@ -1,8 +1,6 @@
 #  DBexT - Database File Extractor
 
-DBexT is a forensic utility for extracting embedded files (such as images, documents, archives) from binary database-like containers.
-
-
+DBexT is an open-source tool to extract  different files data (JPG, PNG, GIF, BMP, TIFF, PDF, ZIP) from binary files like `example.db` using signature-based detection. There is Python and C++ versions.
 
 ##  Features
 
@@ -10,11 +8,6 @@ DBexT is a forensic utility for extracting embedded files (such as images, docum
 *  **Automatic signature-based scanning**: Uses magic numbers to locate embedded files.
 *  **Organized output**: Creates a clean folder structure based on file type.
 *  **Collision-safe folder names**: Prevents overwriting by auto-incrementing folders.
-*  **Supports multi-selection** or "Extract All" option.
-*  **Works locally**: No internet required — full offline functionality.
-*  Includes a retro ASCII banner for tool branding.
-
-
 
 ##  Supported Formats
 
@@ -27,8 +20,6 @@ DBexT is a forensic utility for extracting embedded files (such as images, docum
 | TIFF   | Tagged Image Format       | `.tiff`   |
 | PDF    | Adobe PDF files           | `.pdf`    |
 | ZIP    | Compressed archives       | `.zip`    |
-
-
 
 ##  Usage
 
@@ -43,8 +34,6 @@ DBexT is a forensic utility for extracting embedded files (such as images, docum
    * Choose the file formats you want to extract (e.g., JPG, PDF)
    * Enter the input filename when prompted
 4. Extracted files will appear in a structured folder with subfolders per format.
-
-
 
 ##  Example Output
 
