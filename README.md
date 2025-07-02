@@ -1,6 +1,6 @@
 #  DBexT - Database File Extractor
 
-DBexT is an open-source tool to extract  different files data (JPG, PNG, GIF, BMP, TIFF, PDF, ZIP) from binary files like `example.db` using signature-based detection. There is Python and C++ versions.
+DBexT is an open-source tool to extract  different files data (JPG, PNG, GIF, BMP, TIFF, PDF, ZIP) from binary files like ```example.db``` using signature-based detection. There is Python and C++ versions.
 
 ##  Features
 
@@ -29,6 +29,9 @@ DBexT is an open-source tool to extract  different files data (JPG, PNG, GIF, BM
    ```bash
    python DBexT.py
    ```
+   ```g++ -o DBexT DBexT.cpp
+      ./DBexT```
+
 3. **Follow the interactive menu**:
 
    * Choose the file formats you want to extract (e.g., JPG, PDF)
