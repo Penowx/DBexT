@@ -27,10 +27,12 @@ DBexT is an open-source tool to extract  different files data (JPG, PNG, GIF, BM
 2. **Run the script**:
 
    ```bash
-   python DBexT.py
+   python3 DBexT.py
    ```
-   ```g++ -o DBexT DBexT.cpp
-      ./DBexT```
+   ```bash 
+      g++ -o DBexT DBexT.cpp
+      ./DBexT
+   ```
 
 3. **Follow the interactive menu**:
 
